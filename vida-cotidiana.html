@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida cotidiana | Fundamentos de informática</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/proyectofinal.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header class="encabezado"><h1>Fundamentos de informática</h1><p>Proyecto del segundo parcial · Equipo 1</p></header>
+    <nav class="navbar navbar-expand-md navbar-dark menu" aria-label="Menú principal">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Menú</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPaginas" aria-controls="menuPaginas" aria-expanded="false" aria-label="Abrir el menú"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="menuPaginas"><ul class="navbar-nav me-auto mb-2 mb-md-0"><li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+<li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+<li class="nav-item"><a class="nav-link" href="hardware.html">Hardware</a></li>
+<li class="nav-item"><a class="nav-link" href="software.html">Software</a></li>
+<li class="nav-item"><a class="nav-link active" aria-current="page" href="vida-cotidiana.html">Vida cotidiana</a></li></ul></div>
+  </div>
+</nav>
+    <main id="contenido" class="contenido">
+        <h2 class="titulo">Importancia de la informática en la vida cotidiana</h2>
+<img src="imagenes/vida.svg" class="imagen-seccion img-fluid mb-4" alt="Usos de la informática en la escuela, la comunicación, el trabajo y la salud">
+<p>La informática nos permite resolver tareas con más facilidad. Se utiliza para estudiar, investigar, comunicarnos con familiares, organizar archivos y acceder a distintos servicios.</p>
+<div class="row g-3"><div class="col-12 col-md-6"><h3 class="subtitulo">En la escuela</h3><p>Ayuda a buscar información, elaborar trabajos, crear presentaciones y tomar clases en línea.</p></div><div class="col-12 col-md-6"><h3 class="subtitulo">En casa y el trabajo</h3><p>Sirve para enviar mensajes, comprar productos, llevar cuentas, preparar documentos y realizar reuniones.</p></div></div>
+<h3 class="subtitulo mt-3">Comparte tu opinión</h3><p>Este formulario es únicamente una demostración para la materia. <strong>No envía ni almacena información.</strong> Puedes usar datos de ejemplo.</p>
+<form id="formularioOpinion" class="needs-validation" novalidate>
+  <div class="row g-3">
+    <div class="col-12 col-md-6"><label for="nombre" class="form-label">Nombre</label><input type="text" class="form-control" id="nombre" name="nombre" required maxlength="50" placeholder="Escribe tu nombre"><div class="invalid-feedback">Escribe tu nombre.</div></div>
+    <div class="col-12 col-md-6"><label for="correo" class="form-label">Correo electrónico</label><input type="email" class="form-control" id="correo" name="correo" required maxlength="100" placeholder="ejemplo@correo.com"><div class="invalid-feedback">Escribe un correo válido.</div></div>
+    <div class="col-12"><label for="uso" class="form-label">¿Dónde utilizas más la informática?</label><select id="uso" class="form-select" name="uso" required><option value="" selected disabled>Selecciona una opción</option><option>Escuela</option><option>Casa</option><option>Trabajo</option><option>Otros lugares</option></select><div class="invalid-feedback">Selecciona una opción.</div></div>
+    <div class="col-12"><label for="opinion" class="form-label">Tu opinión</label><textarea id="opinion" class="form-control" name="opinion" rows="3" required maxlength="300" placeholder="Escribe brevemente tu opinión"></textarea><div class="invalid-feedback">Escribe tu opinión.</div></div>
+    <div class="col-12"><button type="submit" class="btn boton-principal">Enviar formulario de prueba</button></div>
+  </div>
+</form>
+<div id="mensajeFormulario" class="alert alert-success mt-3" role="status" aria-live="polite"></div>
+<div class="mt-4"><a href="index.html" class="btn btn-outline-secondary">Regresar a inicio</a></div>
+    </main>
+    <footer class="pie"><p>Fundamentos de informática · Equipo 1 · Diseño y elaboración de páginas web</p><p class="mt-2"><a href="https://developer.mozilla.org/es/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a> · <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank" rel="noopener noreferrer">Bootstrap</a></p></footer>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/formulario.js"></script>
+</body>
+</html>

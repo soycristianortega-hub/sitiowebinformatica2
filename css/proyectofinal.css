@@ -1,0 +1,114 @@
+/* Hoja de estilos del proyecto final - Equipo 1 */
+/* Se mantiene una estructura parecida a las actividades de Bootstrap. */
+body {
+    background-color: #28294f;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+.container {
+    max-width: 1000px;
+    background-color: white;
+    padding: 0;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.encabezado {
+    background-color: #101a40;
+    color: white;
+    padding: 32px 24px;
+    text-align: center;
+}
+.encabezado h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.encabezado p {
+    margin-bottom: 0;
+    color: #e5edf4;
+}
+.menu {
+    background-color: #000000;
+}
+.menu .navbar-brand,
+.menu .nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.menu .nav-link {
+    padding: 12px;
+}
+.menu .nav-link:hover,
+.menu .nav-link.active {
+    color: #ffffff;
+    background-color: #346a81;
+}
+.menu .navbar-toggler { border-color: #dddddd; }
+.titulo {
+    color: #298496;
+    font-size: 24px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+.subtitulo {
+    font-size: 20px;
+    color: #2b7282;
+    font-weight: bold;
+}
+.contenido {
+    padding: 28px 25px;
+}
+.contenido p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+.imagen-seccion {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #e9f4f6;
+}
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 10px;
+    border-radius: 3px;
+}
+.tarjeta {
+    height: 100%;
+    border: 1px solid #d7dde2;
+}
+.tarjeta .card-title { color: #246f80; font-weight: bold; }
+.frase { background-color: #eaf3f5; padding: 17px; border-left: 4px solid #50a5b5; }
+.tabla { margin-top: 12px; }
+.boton-principal {
+    background-color: #245b73;
+    border-color: #245b73;
+    color: #fff;
+}
+.boton-principal:hover { background-color: #143e52; color: #fff; }
+.pie {
+    background-color: #101a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px 12px;
+}
+.pie a { color: #b7e9f1; }
+.pie p { margin: 0; }
+#mensajeFormulario { display: none; }
+#mensajeFormulario.mostrar { display: block; }
+@media (max-width: 575px) {
+    .container { margin-top: 0; margin-bottom: 0; }
+    .encabezado { padding: 24px 12px; }
+    .encabezado h1 { font-size: 24px; }
+    .contenido { padding: 20px 16px; }
+    .titulo { font-size: 22px; }
+    .carousel-caption { position: static; background: #101a40; }
+    .carousel-caption h2 { font-size: 17px; }
+    .carousel-caption p { font-size: 13px; margin-bottom: 0; }
+}

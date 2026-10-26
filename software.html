@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software | Fundamentos de informática</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/proyectofinal.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header class="encabezado"><h1>Fundamentos de informática</h1><p>Proyecto del segundo parcial · Equipo 1</p></header>
+    <nav class="navbar navbar-expand-md navbar-dark menu" aria-label="Menú principal">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Menú</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPaginas" aria-controls="menuPaginas" aria-expanded="false" aria-label="Abrir el menú"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="menuPaginas"><ul class="navbar-nav me-auto mb-2 mb-md-0"><li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+<li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+<li class="nav-item"><a class="nav-link" href="hardware.html">Hardware</a></li>
+<li class="nav-item"><a class="nav-link active" aria-current="page" href="software.html">Software</a></li>
+<li class="nav-item"><a class="nav-link" href="vida-cotidiana.html">Vida cotidiana</a></li></ul></div>
+  </div>
+</nav>
+    <main id="contenido" class="contenido">
+        <h2 class="titulo">Software y sistemas operativos</h2>
+<img src="imagenes/software.svg" class="imagen-seccion img-fluid mb-4" alt="Tipos de software: sistemas operativos, aplicaciones y programación">
+<p>El software es el conjunto de programas e instrucciones que utiliza un equipo de cómputo. A diferencia del hardware, no es una pieza física.</p>
+<div class="row g-3"><div class="col-12 col-md-6"><h3 class="subtitulo">Software de sistema</h3><p>El sistema operativo administra recursos y permite utilizar el equipo. Ejemplos: Windows, Linux y Android.</p></div><div class="col-12 col-md-6"><h3 class="subtitulo">Software de aplicación</h3><p>Son programas para realizar tareas, como escribir, hacer presentaciones, navegar en internet o editar fotografías.</p></div></div>
+<p class="frase">El sistema operativo es fundamental para que podamos abrir aplicaciones y trabajar con los dispositivos.</p>
+<button type="button" class="btn boton-principal" data-bs-toggle="modal" data-bs-target="#modalDiferencias">Ver diferencia entre hardware y software</button>
+<div class="modal fade" id="modalDiferencias" tabindex="-1" aria-labelledby="modalTitulo" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h3 class="modal-title fs-5" id="modalTitulo">Hardware y software</h3><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button></div><div class="modal-body"><p><strong>Hardware:</strong> son los componentes físicos, como el teclado.</p><p><strong>Software:</strong> son los programas e instrucciones, como un editor de texto.</p><p>Los dos trabajan juntos para que la computadora funcione.</p></div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar ventana</button></div></div></div></div>
+<div class="mt-4"><a class="btn btn-outline-secondary" href="vida-cotidiana.html">Siguiente: vida cotidiana</a></div>
+    </main>
+    <footer class="pie"><p>Fundamentos de informática · Equipo 1 · Diseño y elaboración de páginas web</p><p class="mt-2"><a href="https://developer.mozilla.org/es/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a> · <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank" rel="noopener noreferrer">Bootstrap</a></p></footer>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/formulario.js"></script>
+</body>
+</html>
